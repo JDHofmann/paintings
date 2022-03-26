@@ -4,7 +4,6 @@ import author from "~/static/data.json";
 export const state = () => ({
 	projects: [],
 	author: [],
-	theme: "seventies-theme",
 });
 
 export const mutations = {
@@ -15,11 +14,6 @@ export const mutations = {
 	SET_AUTHOR: (state, payload) => {
 		// console.log(payload);
 		state.author = payload;
-	},
-	SET_THEME: (state, payload) => {
-		// console.log(payload);
-		console.log("set_theme");
-		state.theme = payload;
 	},
 };
 
@@ -38,9 +32,5 @@ export const actions = {
 	async nuxtServerInit({ commit }) {
 		commit("SET_PROJECTS", projects);
 		commit("SET_AUTHOR", author);
-	},
-	changeTheme({ commit }, payload) {
-		console.log("changeTheme");
-		commit("SET_THEME", payload);
 	},
 };

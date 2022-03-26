@@ -1,7 +1,7 @@
 <template>
-	<div :class="theme">
+	<!-- <div :class="theme"> -->
+	<div class="main-theme">
 		<Header />
-		<ThemeSelector />
 		<Nuxt />
 		<footer>Footer</footer>
 	</div>
@@ -11,9 +11,9 @@
 import { mapState } from "vuex";
 
 export default {
-	computed: {
-		...mapState(["theme"]),
-	},
+	// computed: {
+	// 	...mapState(["theme"]),
+	// },
 };
 </script>
 
