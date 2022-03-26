@@ -1,0 +1,127 @@
+.seventies-theme {
+	$one: #ef3f28;
+	$two: #f36b39;
+	$three: #f9a76c;
+	$four: #fedfb3;
+	$five: #6faea2;
+	$six: #008c99;
+	$seven: #026e92;
+	$eight: #11264e;
+
+	$text-dark: #101010;
+	$text-light: #ffffff;
+
+	font-family: "Poiret One";
+	background: #ffffff;
+	#menu-bar {
+		font-family: "Poller One";
+		background: $eight;
+		color: $text-light;
+		margin: 0;
+		padding: 0 1rem;
+		#pop-out {
+			// top: 60px;
+			ul li {
+				font-size: 14px;
+			}
+		}
+		nav {
+			background: $eight;
+			padding: 5rem 0.5rem;
+			color: $text-dark;
+		}
+	}
+
+	#theme-selector button {
+		font-family: "Poller One";
+		font-size: 10px;
+	}
+	h1 {
+		font-family: "Poller One";
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 17px;
+	}
+	.project-card h2 {
+		font-family: "Poller One";
+	}
+	h3 {
+		font-family: "Poller One";
+	}
+	p {
+		font-size: 15px;
+	}
+
+	@mixin seventiesShadows($primary, $secondary) {
+		background: $primary;
+		.card-link {
+			background: rgba($secondary, 0.5);
+		}
+		img {
+			box-shadow: -60px 0 0 0 $primary;
+		}
+		@media (min-width: 1080px) {
+			img {
+				box-shadow: -80px 0 0 0 $primary;
+			}
+		}
+	}
+
+	@mixin projectImages($primary) {
+		box-shadow: 20px 20px 0 0 rgba($primary, 0.5);
+	}
+
+	li:nth-child(1) {
+		@include seventiesShadows($one, $two);
+	}
+	#project-images div:nth-child(1) img {
+		@include projectImages($one);
+	}
+
+	li:nth-child(2) {
+		@include seventiesShadows($two, $three);
+	}
+	#project-images div:nth-child(2) img {
+		@include projectImages($two);
+	}
+
+	li:nth-child(3) {
+		@include seventiesShadows($three, $four);
+	}
+
+	li:nth-child(4) {
+		@include seventiesShadows($four, $five);
+	}
+
+	li:nth-child(5) {
+		@include seventiesShadows($five, $six);
+	}
+
+	li:nth-child(6) {
+		@include seventiesShadows($six, $seven);
+	}
+
+	li:nth-child(7) {
+		@include seventiesShadows($seven, $eight);
+
+		color: $text-light;
+	}
+	li:nth-child(8) {
+		@include seventiesShadows($eight, $one);
+		color: $text-light;
+	}
+	li {
+		&.no-background {
+			background: none;
+		}
+		img {
+			transform: translate(30px);
+		}
+		@media (min-width: 1080px) {
+			img {
+				transform: translate(40px);
+			}
+		}
+	}
+}

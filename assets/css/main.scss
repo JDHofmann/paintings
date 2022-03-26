@@ -1,0 +1,74 @@
+@import "reset";
+@import "colors";
+@import "mixins";
+
+@import "header";
+
+.forest-theme {
+}
+
+body {
+	background: #000000;
+}
+main {
+	z-index: 1;
+	padding: 0 1rem 10rem;
+	min-height: 90vh;
+}
+section {
+	padding-top: 1rem;
+}
+li {
+	padding-top: 1rem;
+}
+img {
+	// box-shadow: 25px 25px 0 #ff00ffc0;
+	margin-top: 1rem;
+}
+
+.hidden {
+	display: none;
+}
+.show {
+	display: block;
+}
+
+.hero {
+	padding: 3rem 0 0;
+	border-bottom: 1px solid;
+	h1 {
+		width: 50%;
+	}
+	h2 {
+		padding: 0.5rem 0;
+	}
+}
+.description {
+	padding: 1rem 0;
+}
+
+button {
+	transition: 0.33s ease;
+	border-radius: 10px;
+	border: none;
+	outline: 1px solid;
+	&hover {
+		outline: 3px solid;
+	}
+}
+
+footer {
+	border-top: 1px solid;
+	margin: 0 1rem;
+	padding: 10px 0;
+	height: 40px;
+	/* display: flex; */
+	/* align-items: center;
+	height: 60px;
+	width: 100%; */
+	/* position: fixed; */
+}
+@import "themes/midnight";
+@import "themes/southwest";
+@import "themes/seventies";
+@import "themes/sunset";
