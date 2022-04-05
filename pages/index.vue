@@ -1,19 +1,10 @@
 <template>
-	<main>
-		<div class="hero">
+	<main id="home-page">
+		<!-- <div class="hero">
 			<h1>Home</h1>
-		</div>
-		<section>
-			<ul>
-				<ProjectCard
-					v-for="project in projects"
-					:key="project.id"
-					:id="project.id"
-					:name="project.name"
-					:thumbnail="project.thumbnail"
-				/>
-			</ul>
-		</section>
+		</div> -->
+
+		<img src="/flowers.png" />
 	</main>
 </template>
 
@@ -22,6 +13,7 @@ import { mapState, mapActions } from "vuex";
 
 export default {
 	name: "IndexPage",
+	layout: "home",
 	computed: {
 		...mapState(["projects", "theme"]),
 	},
@@ -34,22 +26,20 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+body {
+	background: $background;
+}
 button {
 	border: 5px solid #ffffff;
 }
-ul {
-	padding-top: 1rem;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-	place-items: center;
-	grid-column-gap: 1rem;
-	grid-row-gap: 2rem;
+main {
+	margin: 0;
+	padding: 0;
+	min-height: auto;
+	background: $background;
 }
-@media (min-width: 1080px) {
-	ul {
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		grid-gap: 2rem;
-	}
+img {
+	width: 100%;
 }
 </style>

@@ -1,130 +1,49 @@
 [
 	{
 		"id": 0,
-		"name": "North Park Transportation",
-		"subhead": "subhead text",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		"thumbnail": "/nopk/thumbnail.jpg",
+		"name": "Bird of Paradise for AD",
+		"subhead": "Acrylic Paint on Canvas",
+		"description": "AD is a young person with sickle cell disease. In this piece, a crescent moon tells us about the shape of sickled blood cells, that as AD says, “stick together and have a party all over the place. Then they get stuck, causing lots of problems.” The bird of paradise represents AD. One of her leaves is making contact with a red present and is turning black, the predominant color that AD uses to describe her pain crises. She also describes the pain as akin to being mauled by a bear. I chose to depict this as a teddy bear to acknowledge the insidious and often invisible nature of her pain. Finally, AD frequently practices self-care in order to mitigate physical symptoms and improve her mood and outlook. The watering can in the corner represents this effort and is a symbol of positivity.",
+		"thumbnail": "/bird.jpg",
 		"images": [
 			{
-				"title": "Landing Page",
-				"path": "/nopk/landing-page.jpg"
-			},
-			{
-				"title": "Home Page Widgets",
-				"path": "/nopk/home-page-2.jpg"
-			},
-			{
-				"title": "Join the Team Page",
-				"path": "/nopk/join-the-team.jpg"
-			},
-			{
-				"title": "Interactive Service Map",
-				"path": "/nopk/service-map.jpg"
-			},
-			{
-				"title": "Pick Up Form",
-				"path": "/nopk/pick-up-form.jpg"
-			}
-		],
-		"image-directory": "nopk",
-		"links": [
-			{
-				"title": "nopk.com/",
-				"path": "https://nopk.com/"
+				"path": "/bird.jpg"
 			}
 		]
 	},
 	{
 		"id": 1,
-		"name": "Display Ads Hub",
-		"subhead": "Internal Progressive Site",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		"thumbnail": "/display-hub/business-area.jpg",
+		"name": "Aloe and Wildflowers for ET",
+		"subhead": "Acrylic Paint on Canvas",
+		"description": "ET spoke about the non-duality of existence and of objects in the world. In this piece, a potted aloe plant – constrained, monochromatic, and sturdy – is situated in a field of wildflowers– free, colorful, and delicate. ET has a degenerative neurological condition that makes it difficult to breathe and speak. To represent this, there are wildflowers blowing in the breeze, while the aloe plant remains still. The scene is overcrowded and floods over the borders of the canvas as she describes feeling overwhelmed by her symptoms as daily activities become more and more difficult. The (very) blue sky gives us an idea of ET’s admirable perspective and acceptance of her illness.",
+		"thumbnail": "/aloe.jpg",
 		"images": [
 			{
-				"title": "Landing Page",
-				"path": "/display-hub/landing-page.jpg"
-			},
-			{
-				"title": "Business Area Page",
-				"path": "/display-hub/business-area.jpg"
-			},
-			{
-				"title": "Ad Concept Page",
-				"path": "/display-hub/ad-concept.jpg"
+				"path": "/aloe.jpg"
 			}
 		]
 	},
 	{
 		"id": 2,
-		"name": "Inclusity"
+		"name": "Bubble Cacti for AK",
+		"subhead": "Acrylic Paint on Canvas",
+		"description": "AK is a patient with sickle cell disease who spent many years keeping his emotional struggles with his illness inside. Now post-transplant, he describes his residual pain as sharp and stabbing, represented by potted cacti in this piece. The different cacti are in distinct “islands” in a desert, separated by glass – distant, but connected through likeness. Recently, AK has begun to address some of the emotional and mental consequences of living with chronic illness and now advocates that all patients with sickle cell should seek care. AK has realized that connecting with others who have similar experiences is an essential part of his healing journey.",
+		"thumbnail": "/cacti.jpg",
+		"images": [
+			{
+				"path": "/cacti.jpg"
+			}
+		]
 	},
 	{
 		"id": 3,
-		"name": "Life@Progressive"
-	},
-	{
-		"id": 4,
-		"name": "Payout Perk Dispay Ads",
-		"thumbnail": "/payout-perk/21D30085_Multichannel_DA_Flo-Balloons-300x250/21D30085_Multichannel_DA_Flo-Balloons-300x250.jpg",
-		"iframes": [
-			{
-				"path": "/payout-perk/21D30085_Multichannel_DA_Flo-Balloons-300x250/21D30085_Multichannel_DA_Flo-Balloons-300x250/index.html",
-				"width": 300,
-				"height": 250
-			}
-		]
-	},
-	{
-		"id": 5,
-		"name": "Display Ads Hub CLI",
-		"subhead": "A Custom NodeJS CLI to Support Progressive's internal Display Ads Hub ",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		"thumbnail": "/hub-cli/create.jpg",
+		"name": "Monstera in a Cave for AB",
+		"subhead": "Acrylic Paint on Canvas",
+		"description": "​​This patient, AB, has an incredible story to tell about her journey with sickle cell. Her parents moved to the states when she was young so that they could improve her access to specialized medical care. In adolescence, as she started to understand her disease a little more, AB felt the need to hide it from peers. It wasn’t until young adulthood that she realized being open and honest about her condition could be therapeutic. Ultimately she received a stem cell transplant from her brother, I chose a monstera plant because younger leaves are heart-shaped, representing the love AB’s parents had for her and sacrifice they made to help her access care. Older monstera leaves become fenestrated, or, develop windows (holes). This tells us about how AB began to open up about her SS, which allowed her to grow abundantly as a person.",
+		"thumbnail": "/monstera.jpg",
 		"images": [
 			{
-				"title": "Creating a New Ad Concept",
-				"path": "/hub-cli/create.jpg"
-			},
-			{
-				"title": "Business Area Page",
-				"path": "/hub-cli/sizes.jpg"
-			},
-			{
-				"title": "Ad Concept Page",
-				"path": "/hub-cli/help.jpg"
-			}
-		]
-	},
-	{
-		"id": 6,
-		"name": "Corporate Responsibility",
-		"subhead": "Progressive...",
-		"description": "words... words... words... descriptive words....",
-		"thumbnail": "/corporate-responsibility/thumbnail.jpg",
-		"images": [
-			{
-				"title": "Landing Page",
-				"path": "/corporate-responsibility/landing-page.jpg"
-			},
-			{
-				"title": "Landing Page Part 2",
-				"path": "/corporate-responsibility/landing-page-2.jpg"
-			},
-			{
-				"title": "Community Outreach by state",
-				"path": "/corporate-responsibility/outreach-map.jpg"
-			},
-			{
-				"title": "Carbon Emissions Graph",
-				"path": "/corporate-responsibility/emissions-graph.jpg"
-			}
-		],
-		"links": [
-			{
-				"title": "landing page",
-				"path": "https://www.progressive.com/about/corporate-responsibility/"
+				"path": "/monstera.jpg"
 			}
 		]
 	}

@@ -1,7 +1,12 @@
 <template>
 	<header id="menu-bar">
 		<div id="static-items">
-			<span id="logo">Amissa</span>
+			<div id="logo">
+				<!-- <span>logo</span> -->
+				<span id="site-title"
+					>The <br />Room <br />to <br />Grow <br />Project</span
+				>
+			</div>
 			<div id="menu-buttons">
 				<button
 					aria-haspopup="true"
@@ -42,13 +47,13 @@
 						<nuxt-link to="/"> home </nuxt-link>
 					</li>
 					<li @click="closeMenu">
-						<nuxt-link to="/projects"> projects </nuxt-link>
-					</li>
-					<li @click="closeMenu">
 						<nuxt-link to="/about"> about </nuxt-link>
 					</li>
 					<li @click="closeMenu">
-						<nuxt-link to="/contact"> contact </nuxt-link>
+						<nuxt-link to="/pieces"> pieces </nuxt-link>
+					</li>
+					<li @click="closeMenu">
+						<nuxt-link to="/artist"> artist </nuxt-link>
 					</li>
 				</ul>
 			</nav>
@@ -82,7 +87,7 @@ export default {
 
 <style scoped lang="scss">
 header {
-	border-bottom: 1px solid;
+	// border-bottom: 1px solid;
 	margin: 0 1rem;
 }
 button {
@@ -123,17 +128,17 @@ button {
 	}
 }
 #menu-bar {
-	background: $eight;
+	background: $background;
 	color: $text-light;
 	margin: 0;
-	padding: 0 1rem;
+	padding: 1rem;
 	#pop-out {
 		ul li {
-			font-size: 18px;
+			font-size: 22px;
 		}
 	}
 	nav {
-		background: $eight;
+		background: $background;
 		padding: 5rem 0.5rem;
 		color: $text-light;
 	}

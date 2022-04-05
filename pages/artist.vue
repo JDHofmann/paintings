@@ -1,13 +1,13 @@
 <template>
 	<main>
 		<div class="hero">
-			<h1>Contact</h1>
+			<h1>ABOUT THE ARTIST</h1>
 		</div>
 		<section>
-			<a :href="`mailto:${email}`">Email</a>
-			<ul v-for="(link, i) in links" :key="i">
-				<li>{{ link.name }}</li>
-			</ul>
+			<p>{{ biography }}</p>
+		</section>
+		<section>
+			<img :src="photo.url" />
 		</section>
 	</main>
 </template>
@@ -18,8 +18,8 @@ import { mapState } from "vuex";
 export default {
 	computed: {
 		...mapState({
-			email: (state) => state.author[0].email,
-			links: (state) => state.author[0].links,
+			photo: (state) => state.author[0].photo,
+			biography: (state) => state.author[0].biography,
 		}),
 	},
 
@@ -30,3 +30,14 @@ export default {
 	},
 };
 </script>
+<style scoped>
+.hero,
+section {
+	width: calc(100% - 10vw);
+	margin: 0 5vw;
+}
+img {
+	max-width: 100%;
+	margin: 2rem 0;
+}
+</style>

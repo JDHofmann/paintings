@@ -1,6 +1,6 @@
 <template>
 	<li class="no-background project-card">
-		<NuxtLink :to="`/projects/${id}`" class="card-link">
+		<NuxtLink :to="`/pieces/${id}`" class="card-link">
 			<div class=""></div>
 			<img :src="thumbnail" alt="" />
 			<h2>{{ name }}</h2>
@@ -33,7 +33,7 @@ export default {
 h2 {
 	text-align: center;
 	padding: 1rem 0;
-	font-size: 14px;
+	/* font-size: 14px; */
 }
 li {
 	list-style: none;
@@ -43,7 +43,7 @@ li {
 	align-items: center;
 	padding: 0;
 	height: 100%;
-	width: 150px;
+	width: 250px;
 }
 a {
 	padding: 1rem 0;
@@ -51,25 +51,26 @@ a {
 }
 img {
 	box-shadow: none;
-	width: 150px;
-	height: 150px;
+	width: 250px;
+	height: 250px;
 	object-fit: cover;
-	/* border-radius: 50%; */
+	border-radius: 50%;
+	box-shadow: 0 0 10px #808080;
 }
 
 @media (min-width: 1080px) {
 	h2 {
-		font-size: 17px;
+		/* font-size: 17px; */
 	}
 	li {
-		width: 200px;
+		width: 400px;
 	}
 	a {
 		height: 100%;
 	}
 	img {
-		width: 200px;
-		height: 200px;
+		width: 400px;
+		height: 400px;
 	}
 }
 </style>

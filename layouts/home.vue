@@ -1,6 +1,6 @@
 <template>
 	<!-- <div :class="theme"> -->
-	<div class="main-theme">
+	<div class="main-theme" id="home">
 		<Header />
 		<Nuxt />
 		<footer>
@@ -19,12 +19,15 @@ export default {
 };
 </script>
 
-<style scoped>
-/* h1 {
-	color: #009999;
-} */
+<style scoped lang="scss">
+body {
+	background: $eight;
+}
 
 button {
 	border: 5px solid #ffffff;
+}
+main {
+	min-height: none;
 }
 </style>
