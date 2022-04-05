@@ -7,7 +7,7 @@ export default {
 
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: "portfolio-4.0",
+		title: "The Room to Grow Project",
 		htmlAttrs: {
 			lang: "en",
 		},
@@ -65,20 +65,5 @@ export default {
 			"./assets/vars/*.scss",
 			"./assets/css/_colors.scss", // use underscore "_" & also file extension ".scss"
 		],
-	},
-	googleFonts: {
-		// download: true,
-		families: {
-			"Abril Fatface": true,
-			"Open Sans": [300, 400, 600, 700],
-			"Poiret One": true,
-			"Poller One": true,
-			Monton: true,
-			Comfortaa: [300, 400, 600, 700, 900],
-			Raleway: {
-				wght: [100, 400],
-				ital: [100],
-			},
-		},
 	},
 };
