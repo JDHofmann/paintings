@@ -29,5 +29,6 @@ button {
 }
 main {
 	min-height: none;
+	margin: -1px 0;
 }
 </style>

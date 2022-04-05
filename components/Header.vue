@@ -3,8 +3,8 @@
 		<div id="static-items">
 			<div id="logo">
 				<!-- <span>logo</span> -->
-				<span id="site-title"
-					>The <br />Room <br />to <br />Grow <br />Project</span
+				<a href="/" id="site-title"
+					>The <br />Room <br />to <br />Grow <br />Project</a
 				>
 			</div>
 			<div id="menu-buttons">
@@ -47,13 +47,13 @@
 						<nuxt-link to="/"> home </nuxt-link>
 					</li>
 					<li @click="closeMenu">
+						<nuxt-link to="/artist"> artist </nuxt-link>
+					</li>
+					<li @click="closeMenu">
 						<nuxt-link to="/about"> about </nuxt-link>
 					</li>
 					<li @click="closeMenu">
 						<nuxt-link to="/pieces"> pieces </nuxt-link>
-					</li>
-					<li @click="closeMenu">
-						<nuxt-link to="/artist"> artist </nuxt-link>
 					</li>
 				</ul>
 			</nav>
