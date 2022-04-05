@@ -105,6 +105,7 @@ button {
 		span {
 			display: block;
 			height: 1px;
+			width: 100%;
 			line-height: 0px;
 			background: #ffffff;
 		}
@@ -112,11 +113,15 @@ button {
 	&.hide-menu {
 		&.show {
 			display: block;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
 		}
 		span {
 			display: block;
 			height: 1px;
 			line-height: 0px;
+			width: 100%;
 			background: #ffffff;
 		}
 		span:nth-child(1) {
@@ -139,7 +144,7 @@ button {
 	}
 	nav {
 		background: $background;
-		padding: 5rem 0.5rem;
+		padding: 10rem 0.5rem;
 		color: $text-light;
 	}
 }
